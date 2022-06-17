@@ -1,5 +1,7 @@
-public class helloWorld {
+public class Variables {
     public static void main(String [] args ){
-        System.out.println("Hello world");
+        int myInt;
+        myInt = 557;
+        System.out.println(myInt);
     }
 }

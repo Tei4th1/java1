@@ -5,17 +5,17 @@ public class Arrays_of_Strings {
         strings[0] = "hi";
         strings[1] = "bye";
         strings[2] = "java";
-        System.out.println(strings[0] + " "+strings[2]);
-        for (int i = 0; i< strings.length; i++){
+        System.out.println(strings[0] + " " + strings[2]);
+        for (int i = 0; i < strings.length; i++) {
             System.out.println(strings[i]);
         }
 
-        for (String string:strings ){
+        for (String string : strings) {
             System.out.println(string);
         }
-        int[] numbers1 = {1,2,3};
+        int[] numbers1 = {1, 2, 3};
         int sum = 0;
-        for (int x: numbers1){
+        for (int x : numbers1) {
             sum = sum + x;
         }
         System.out.println();

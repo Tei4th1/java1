@@ -18,12 +18,13 @@ class Person {
     String name;
     int age;
 
-    void speak(){
-        for(int i =0 ;i<1;i++) {
+    void speak() {
+        for (int i = 0; i < 1; i++) {
             System.out.println("My name is " + name + "." + " I'm " + age + " years old");
         }
     }
-    void sayHello(){
+
+    void sayHello() {
         System.out.println("hi");
     }
 }
